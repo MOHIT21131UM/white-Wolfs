@@ -1,0 +1,14 @@
+body{
+    background-image: url(COURSES/Photos/navy-blue-purple-violet-magenta-600nw-2216057697.webp);
+}
+h1{
+    text-align: center;
+    color: cornsilk;
+}
+.png{
+    clip-path: square(50.0% at 50% 50%);
+}
+div{
+    text-align: center;
+    margin: 150px;
+}

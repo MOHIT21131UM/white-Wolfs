@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5%;
+    background-color: steelblue;
+}
+h2{
+    padding: 20px;
+}
+ section h2 span{
+    text-align: center;
+    color: crimson;
+    background: aliceblue;
+    background: linear-gradient(0deg,rgb(7, 75, 99),rgb(97, 10, 81));
+    border-radius: 20px;
+    padding: 15px 65px;
+}
+h2,h3,h4,h5,h6{
+    color: crimson
+}
+.bold{
+    text-align: left;
+    text-transform: capitalize;
+    color:crimson;
+}
+.Menu:hover{
+    background-color: aliceblue;
+    color: palevioletred;
+}
+nav{
+    display: flex;
+    background-color: rgb(37, 35, 35);
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.Box{
+    background-image: url(COURSES/Photos/photooos.jpg);
+    height: 20vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: TOP center;
+    background-size: 20%;
+    background-attachment: fixed;
+}
+header {
+    padding: 1px;
+    background-color: rgb(125, 18, 36)}
+ol{
+    color: brown;
+}
+ul{
+    color: brown;
+}
+h6{
+    text-align: center;
+}
+.img{
+    text-align: center;
+    background-image: url(COURSES/Photos/background.jpg);
+}
+.im{
+   clip-path:  circle(36.8% at 49% 38%);
+}
+table,td,th{
+    text-align: center;
+}
+table{
+    border: solid black 1px;
+    background-color: black;
+    width: 50%;
+}
+td{
+    border: solid black 1px;
+    background-color: blanchedalmond;
+    height: 10px;
+}
+th{
+    border: solid black 1px;
+    background-color: blanchedalmond;
+    width: 10px;
+}
+td:hover{
+    background-color: coral;
+}
+th:hover{
+    background-color: coral;
+}
+p{
+    text-align: center;
+    color: crimson;
+}

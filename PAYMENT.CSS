@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    font-size: 15PX 30px;
+    padding: 10px;
+}
+.CONTAINER{
+    background-color:gainsboro;
+    padding: 5px 20PX 15PX 20PX;
+    border: 1PX lightgray;
+    border-radius: 5px;
+}
+input [ TYPE = "TEXT"]
+input [ TYPE = "EMAIL"]
+input [ TYPE = "NUMBER"]
+input [ TYPE = "PASSWORD"]
+input [ TYPE = "DATE"]
+select,
+textarea{
+     width: 100%;
+padding: 5PX;
+border: 2px  aquamarine;
+border-radius: 7PX;
+margin: 5PX;
+}
+fieldset{
+    background-color: white;
+}
+
+.MAIN{
+    text-align: center;
+}
+
+input [type="SUBMIT"]{
+    background-color:rgb(8, 100, 130);
+    color: aliceblue;
+    padding: 12PX 20PX;
+    border: 1px;
+    border-radius: 5PX;
+    cursor: grabbing;
+    width: 100%;
+    }

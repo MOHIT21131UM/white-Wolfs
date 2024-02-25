@@ -1,0 +1,35 @@
+body{
+    background-color: cadetblue;
+    margin: 40px;
+    background-image: url(COURSES/Photos/background.jpg);
+}
+h1{
+    text-align: center;
+    color: brown;
+    background-color: bisque;
+    border: solid skyblue;
+    border-radius: 9px;
+}
+h2{
+    color:brown;
+   text-align: center;
+}
+ol{
+    text-align: left;
+    color: rgb(100, 5, 5);
+    margin: 7px;
+}
+ul{
+    text-align: left;
+    color: rgb(100, 5, 5);
+    margin: 7px;
+}
+b{
+    color: purple;
+}
+.im{
+    text-align: right;
+}
+div{
+    text-align: right;
+}

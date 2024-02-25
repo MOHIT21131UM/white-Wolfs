@@ -1,0 +1,49 @@
+body:hover{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    background-image: url(COURSES/Photos/background.jpg);
+}
+
+body{
+    background-color: plum;
+}
+
+h1{
+    text-align: center;
+    color: brown;
+}
+
+table{
+    border: solid black 1px;
+    border-radius: 3px;
+    background-color: black;
+    text-align: center;
+    width: 50%;
+    color: brown;
+    margin: 20px;
+}
+
+th{
+     border: solid black 1px;
+     background-color:azure;
+     height: 30px;
+}
+
+td{
+    border: solid black 1px;
+    background-color:azure;
+    height: 30px;
+}
+
+h1:hover{
+    background-color: azure;
+}
+
+th:hover{
+    background-color: darksalmon;
+}
+
+td:hover{
+    background-color: darksalmon;
+}

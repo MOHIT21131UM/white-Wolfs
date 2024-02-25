@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+header {
+    padding: 1px;
+    background-color: rgb(17, 124, 143);}
+
+
+FOOTER , nav {
+    display: flex;
+    background-color: #333;
+}
+
+FOOTER a , nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+.BANNER{
+    background-image: url(COURSES/Photos/GIF\ IMAGE.gif);
+    height: 20vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: TOP center;
+    background-size: 20%;
+    background-attachment: fixed;
+}
+.MENU-BTN:hover{
+    background-color: aliceblue;
+    color:coral;
+}
+SECTION H2 span{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+ padding: 15px 65px;
+border-radius: 20px;
+color: aliceblue;}
+
+.FLEX{
+    margin-left: auto;
+}
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel-cell {
+  width: 66%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.carousel-cell video{ max-width: 60%;}
+
+.carousel-cell {
+    width: 66%;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+.carousel-cell iframe{ max-width: 60%;}
+
+
+.carousel-cell {
+    width: 66%;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+.carousel-cell COURSE/NOTE{ max-width: 60%;}
+
+
+.PROFILE{
+    border-radius: 100%;
+    padding: 10px;
+    width: 400PX;
+    height: 400px;
+}
+.PROFILENAME{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 1OPX;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;  
+}
+.PARA{
+    padding: 100px;
+}
+.HX{
+    padding: 10px;
+}
+
+@MEDIA SCREEN AND (MAX-WIDTH: 700PX){
+   FOOTER a , NAV{
+        flex-direction: column;
+        padding: 10px 0px;
+        
+    }
+    .FLEX{
+        margin-left: 0%;
+    }
+}
